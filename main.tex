@@ -1,21 +1,199 @@
-\documentclass[10pt]{beamer}
+\documentclass[8pt]{beamer}
 
 \usepackage[utf8]{inputenc}
 \usefonttheme{structuresmallcapsserif}
 \usetheme{Goettingen}
-# \usecolortheme{beaver}
 
 \title{Online Social Network Analysis: A Survey of Research Applications in Computer Science}
 \subtitle{Social Network Analysis Mid-Term Presentation}
 \author{presented by {\newline}Sitdhibong Laokok {\newline}63199130350}
 \date{2021}
 
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>
+    \frametitle{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
 \begin{document}
 
-\frame{\titlepage}
 
-\begin{frame}
-\frametitle{Sample frame title}
-\end{frame}
+  \frame{\titlepage}
+
+  \section{Introduction}
+
+  \section{Online Social Networks as Object of Study}
+
+  \begin{frame}{Why should anyone research OSNs?}
+    \begin{itemize}[<+->]
+      \item Data availability
+      \item Multiple authorship
+      \item Agent Interaction
+      \item Temporal dynamics
+      \item Instantaneity
+      \item Ubiquity
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Which networks are explored?}
+    \begin{itemize}
+      \item Twitter
+      \item Facebook
+      \item YouTube
+      \item Flickr
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Computational tools}
+    \begin{itemize}
+      \item graph-based: AllegroGraph, Neo4j
+      \item Drawing software: Graphviz, Tulip
+      \item Visualization: Cytoscape
+      \item Analysis: igraph, NetworkX, NetworkKit
+    \end{itemize}
+    
+  \end{frame}
+
+  \section{Categories of Study}
+  \begin{frame}{Categories}
+    \begin{itemize}
+      \item Structural analysis
+      \item Social data analysis
+      \item Social interaction analysis
+    \end{itemize}
+  \end{frame}
+
+  \section{Structural Analysis}
+  \begin{frame}{Topology characterization}
+    \begin{itemize}
+      \item What the network structure reveals?
+      \item Many network in one network
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Use and functionality characterization}
+    \begin{itemize}
+      \item Network formation
+      \item User profiles
+      \item Conversation
+      \item Network deterioration
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Anomaly and fraud detection}
+    \begin{itemize}
+      \item Anomaly and fraud
+      \item Spamming behavior
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Representation models}
+    \begin{itemize}
+      \item Structure models
+      \item Spatio-temporal models
+    \end{itemize}
+  \end{frame}
+
+  \section{Social Data Analysis}
+  \begin{frame}{Sentiment analysis}
+    \begin{itemize}
+      \item Taking advantage of corpora particularities
+      \item Applications
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Prediction}
+  \end{frame}
+
+  \begin{frame}{Trend topics detection}
+    \begin{itemize}
+      \item Message analysis
+      \item Network analysis
+      \item Tracking memes evolution
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Location and real events detection}
+    \begin{itemize}
+      \item Location
+      \item Detecting real events
+      \item Using real event information
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Social recommendation systems}
+    \begin{itemize}
+      \item Trust networks
+      \item Improving traditional recommendation systems
+      \item Content selection
+    \end{itemize}
+  \end{frame}
+  
+  \section{Social Interaction Analysis}
+  \begin{frame}{Cacading}
+    \begin{itemize}
+      \item Trust networks
+      \item Properties observed
+      \item Information origins
+      \item How topology influences cascades
+      \item Cascades from historical events
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Prediction cascades}
+    \begin{itemize}
+      \item Feature selection
+      \item Message features
+      \item User features
+      \item Network features
+      \item Temporal featrues
+      \item What exactly is predicted
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Rumors diffusion}
+    \begin{itemize}
+      \item Characterinzing rumors
+      \item Rumor containment rumors
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Information diffeusion models}
+    \begin{itemize}
+      \item Models paradigm
+      \item Model enhancements
+      \item Inferred path of propagation
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Influence}
+    \begin{itemize}
+      \item Locating influential users
+      \item Influence effect
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Network's influence on behavior}
+    \begin{itemize}
+      \item Homophily
+      \item Users' information processing capability
+      \item Divergence of opinions in networks
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Self-oganize}
+
+    \begin{itemize}
+      \item Social curating
+    \end{itemize}
+  \end{frame}
+
+  \section{Final Remarks}
+  \begin{frame}{Future perspectives}
+  \end{frame}
+  \begin{frame}{Challenges}
+  \end{frame}
 
 \end{document}
